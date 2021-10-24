@@ -64,7 +64,7 @@ const fnInsertarEnSolapas = (data, empresa) => {
         let f = 1;
         let claves = Object.keys(element);
 
-        console.log('dd', data.mes);
+        console.log('dd', element.solapa1);
         
         for(let i = 0; i < arrayInsertHtmlSolapas.length; i++){
             
@@ -85,7 +85,7 @@ const fnInsertarEnSolapas = (data, empresa) => {
                         
                         element.solapa7.forEach(item => {
 
-                            obsModalHTML.innerHTML += `<li> <strong>Exp.: </strong> ${item.exp} - ${item.obs}<br> </li>`;
+                            obsModalHTML.innerHTML += `<li><strong>Dia: ${element.solapa1} <br> </strong> <strong> Exp.: </strong> ${item.exp} - ${item.obs}<br> </li>`;
                         })
                         
                     
