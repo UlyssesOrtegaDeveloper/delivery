@@ -1,0 +1,79 @@
+/********************* 
+    Botones Switch
+*********************/
+
+ul#switch {
+    width: 100%;
+    /* background-color: rgb(36, 35, 33); */
+    padding: 1em;
+
+    li {
+        background: $color_fondo_secundario;
+        color: $color_fuente_secundario;
+        border: 1px solid aliceblue;
+        display:flex;
+        padding: 0.5em;
+        height: auto;
+        justify-content: space-between; 
+        list-style: none;
+        margin-bottom: 1em;
+
+        &:last-child {
+            margin-bottom: 0em;
+        }
+
+        .switch_content {
+            width: 70%;
+        }
+        
+        .switch_content, .main_switch {
+            display: flex;
+            align-self: center;
+        }
+
+        .main_switch label{
+            background-color: $color_fondo_primario;
+            position: relative;
+            width:80px; height:28px;
+            display:inline-block;
+            border-radius:30px;
+            cursor: pointer;
+        }
+
+        .main_switch input[type="checkbox"]{
+            position: absolute;
+            z-index: -2;
+            opacity: 0;
+        }
+        
+        .main_switch input[type="checkbox"] + label::before{
+            content:'No';
+            position: absolute;
+            background-color: $color_fondo_secundario;
+            color: $color_fuente_secundario;;
+            width:38px;
+            height:22px;
+            /* box-shadow: 5px 5px 15px #929db3, -5px -5px 15px rgba(255, 255, 255, 0.5); */
+            font-size:15px;
+            text-align: center;
+            line-height:24px;
+            border-radius: 25px;
+            top:50%;
+            left:3px;
+            transform:translateY(-50%);
+            transition: all 0.3s ease;
+        }
+        
+        .main_switch input[type="checkbox"]:checked +label::before{
+            content:'Si';
+            background: $color_fondo_secundario;
+            color: $color_fuente_secundario;
+            left:49%;
+            transition: all 0.3s ease;
+        }
+    }
+}
+
+
+
+

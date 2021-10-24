@@ -1,0 +1,59 @@
+// Barras Top y bottom
+$color_fondo_primario: rgb(50, 62, 111);
+$color_fuente_primario: rgb(117, 117, 199);
+
+// Modals > Cajas div y li
+$color_fondo_secundario: rgb(117, 117, 199);
+$color_fuente_secundario: rgb(255, 255, 255);
+
+// Modals > fondo semitransparente
+$color_fondo_semitransparente: rgba(0, 0, 0, 0.700);
+
+// Modals > fondo barraTop (predeterminado: transparente)
+$color_barraTop_predeterminado: rgba(255, 255, 255, 0);
+
+// Modals > Fondo (predeterminado: blanco)
+$color_fondo_predeterminado: rgb(255, 255, 255);
+
+/* ====================
+        MODALES
+===================== */
+
+// fondo
+$modal_color_fondo_barraTop: $color_barraTop_predeterminado;
+$modal_color_fondo_cajas: $color_fondo_secundario;
+$modal_color_fondo: $color_fondo_predeterminado;
+
+// semitransparente
+$modal_color_fondo_semitransparente: $color_fondo_semitransparente;
+
+// fuentes
+$modal_color_fuentes_barraTop: $color_fuente_primario;
+$modal_color_fuentes_cajas: $color_fuente_secundario;
+
+// tamaños
+$modal_separacion_top: 0;
+$modal_tamano_apertura_left: 80%;
+$modal_tamano_apertura_right: 100%;
+$modal_tamano_apertura_top: 100%;
+$modal_tamano_apertura_bottom: 100%;
+
+// inputs
+$modal_color_bordes: #ccc;
+$modal_color_bordes_focus: #555;
+
+
+
+/* =========================
+   BOTONES LOG-IN LOG-OUT
+========================= */
+
+$color_fondo_boton_verde: green;
+$color_fondo_boton_verde_hover: green;
+$color_fuente_boton_verde: white;
+$color_borde_boton_verde: green;
+
+$color_fondo_boton_rojo: red;
+$color_fondo_boton_rojo_hover: red;
+$color_fuente_boton_rojo: white;
+$color_borde_boton_rojo: red;

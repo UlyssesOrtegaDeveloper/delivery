@@ -1,0 +1,85 @@
+#idSection_1 {
+    @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+    
+    height: calc(100vh - 120px);
+    overflow: hidden;
+
+    .zone-up {
+        width: 100%; min-height: 15%;
+
+        ul {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+    
+            li {
+                padding: .4em;
+                text-align: center;
+
+                .resumenKeys {
+                    font-size: 12px;
+                    font-family: 'Roboto Mono', sans-serif;
+                }
+            }
+        }
+
+        .counter {
+            font-family: 'Roboto Mono', sans-serif;
+            font-size: 20px;
+        }
+    }
+
+    .zone-middle {
+        width: 100%; height: 10%;
+
+        #contenedor-media-cantidad{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding: 0em 1em;
+            margin: 0.5em;
+    
+            .media, .cantidad {
+                background-color: rgb(240, 240, 240);
+                text-align: center;
+                font-family: 'Roboto Mono', sans-serif;
+                font-size: 20px;
+                padding: .5em;
+                margin: 0.5em;
+                border-radius: 0.2em;
+
+                .subtexto {
+                    font-size: 14px;
+                }
+            }
+
+        }
+    }
+    
+
+
+    .zone-down {
+        width: 100%; height: 75%;
+
+        div#contenedor-barritas {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(16px, auto));
+            align-items: end;
+            gap: 1px;
+
+            /* background-color: cornsilk; */
+            width: 100%; height: 100%;
+
+
+            .barrita {
+                background-color: rgb(182, 158, 206);
+                text-align: center;
+                color: white;
+                transition: 1s;
+                height: 6%;
+
+                &:hover {
+                    background-color: rebeccapurple;
+                }
+            }
+        }
+    }
+}

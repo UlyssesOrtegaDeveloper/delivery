@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    section {
+        display: none;
+    }
+    
+    .section-activo {
+        display: block;
+    }
+}
+
+
+
+/*************************
+        NAV MOBILE
+*************************/
+
+@mixin mixin-NAV-Mobile {
+    
+    ul.mixin-NAV-Top-Desktop {  // oculto
+        display: none;
+    }
+
+    ul.mixin-NAV-Top-Mobile {
+
+        // grid
+        display: grid;
+        grid-template-columns: 50px 1fr 50px;
+        align-content: center;
+        justify-items: center;
+
+        // tamaños
+        width: 100%;
+        height: 50px;
+
+        // pegado arriba
+        position: sticky;
+        top: 0;
+        left: 0;
+
+        // variables > color
+        background-color: $color_fondo_primario;
+        color: $color_fuente_primario;
+
+        i { // gestos
+            cursor: pointer;
+        }
+
+        #idCerrarModal {
+            display: none;
+        }
+    }
+
+    ul.mixin-NAV-Bottom-mobile { // js
+
+        // tamaños
+        width: 100%;
+        height: 50px;
+
+        // pegado abajo
+        position: fixed;
+        left: 0;
+        bottom: 0;
+
+        // grid
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        align-content: center;
+        justify-items: center;
+
+        // variables > color
+        background-color: $color_fondo_primario;
+        color: $color_fuente_secundario;
+
+        // texto de los iconos
+        li {
+            align-content: center;
+            justify-items: center;
+            text-align: center;
+            font-size: small;
+            cursor: pointer;
+
+            p {
+                padding: 3px;
+            }
+
+        }
+
+        // boton activo
+        li.icono-footer-activo {
+
+            i, p {
+                color: $color_fondo_secundario;
+            }
+        }
+
+        // boton inactivo
+        li.inactivo {
+            display: none;
+        }
+    }
+}
+
+@mixin mixin-NAV-Desktop {
+    
+    @media only screen and (min-width: 1000px) {
+
+        ul.mixin-NAV-Top-Mobile {
+            display: none;
+        }
+        
+        ul.mixin-NAV-Top-Desktop {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            /* @include grid(7, 1fr, center, center); */ 
+            padding: 1em;
+            background-color: yellowgreen;
+            align-content: center;
+            justify-items: center;
+
+            li {
+                list-style: none;
+                white-space: nowrap; 
+                
+
+                &:nth-child(1) {
+                    font-size: 26px;
+                    line-height: 12px;
+                }
+            }
+        }   
+    }
+}
+
+
+.mixin-NAV {
+    
+    @include mixin-NAV-Mobile();
+    /* @include mixin-NAV-Desktop(); */    
+}

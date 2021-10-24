@@ -1,0 +1,29 @@
+main {
+    width: 100%;
+    
+    section {
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 0em;
+    }
+}
+
+.grid-2x {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-7x {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+}
+
+.grid-6x {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+}
+
+.grid-between {
+    justify-content: space-between;
+    align-self: center;
+}

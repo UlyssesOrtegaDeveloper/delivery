@@ -1,0 +1,147 @@
+/***********************************************
+                VENTANAS MODALES
+**********************************************+*/
+
+.modal {
+    position: relative; top: 0; left: 0;
+    visibility: hidden;
+
+    .fondo-oscuro-modal {
+        visibility: hidden;
+
+        position: fixed; top: 0; left: 0;
+
+        background-color: $modal_color_fondo_semitransparente;
+
+        width: 100%; height: 100%;
+        
+        // magia
+        transition: all .5s ease-in-out;
+    }
+
+    .cerrar-modal {
+        background-color: $modal_color_fondo_barraTop;
+        color: $modal_color_fuentes_barraTop;
+        
+        width: 100%;
+        padding: 1em;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        span {
+            color: $modal_color_fuentes_barraTop;
+        }
+
+        span:nth-child(2) {
+            text-align: center;
+        }
+
+        span:nth-child(3) {
+            
+            text-align: end;
+            
+            i {
+                cursor: pointer;
+            }
+        }
+        
+    }
+
+    ul {
+
+        li {
+            background-color: $modal_color_fondo_cajas;
+            color: $modal_color_fuentes_cajas;
+            padding: 1em;
+            margin: 1em;
+        }
+    }
+
+    .modal-left,
+    .modal-right,
+    .modal-top,
+    .modal-bottom,
+    .modal-right-login {
+        background-color: $modal_color_fondo;
+        transition: all 0.7s ease;
+    }
+
+    .modal-left,
+    .modal-right { 
+        height: 100%;
+    }
+
+    .modal-left {
+        position: fixed; top: 0; left: 0;
+        transform: translateX(-100%);
+        width: $modal_tamano_apertura_left;
+    }
+
+    .modal-right {
+        position: fixed; top: 0; right: 0;
+        transform: translateX(100%);
+        width: $modal_tamano_apertura_right;
+    }
+
+    .modal-top {
+        position: fixed; top: 0; left: 0;
+        width: 100%; height: $modal_tamano_apertura_top;
+        transform: translateY(-100%);
+    }
+
+    .modal-bottom {
+        position: fixed; bottom: 0; left: 0;
+        width: 100%; height: $modal_tamano_apertura_bottom;
+        transform: translateY(100%);
+    }
+
+    .modal-right-login {
+        position: fixed; top: 0; right: 0;
+        width: 100%; height: 100%;
+        transform: translateX(100%);
+
+        form {
+            height: calc(100% - 6em);
+            padding: 1em;
+            margin: 0 auto;
+            text-align: center;
+
+            input {
+                min-width: 80%;
+                padding: 1em;
+                margin-top: 1em;
+
+                box-sizing: border-box;
+                border: 3px solid $modal_color_bordes;
+                -webkit-transition: 0.5s;
+                transition: 0.5s;
+                outline: none;
+
+                background-color: white;
+                background-image: url('searchicon.png');
+                background-position: 10px 10px;
+                background-repeat: no-repeat;
+                padding-left: 40px;
+                
+
+                &:focus {
+                    border: 3px solid $modal_color_bordes_focus;
+                }
+            }
+        }
+    }
+
+    /****************************
+            MODALS ACTIVOS
+    *****************************/
+
+    .fondo-oscuro-modal-activo {
+        visibility: visible;
+        transition: all 0.7s ease-in-out;
+    }
+
+    .modal-activo {
+        transform: translateX(0); transition: transform 0.7s;
+    }
+}
