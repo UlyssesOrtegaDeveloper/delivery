@@ -61,6 +61,7 @@ main {
     }
 
     ul.mixin-NAV-Bottom-mobile { // js
+        z-index: 10;
 
         // tamaños
         width: 100%;
