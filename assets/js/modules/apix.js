@@ -16,16 +16,6 @@ const arrayResumen = [resumen]
 
 const barritas = document.querySelector('#contenedor-barritas')
 
-
-/* ***********
-    ARRAYS
-************* */
-
-
-
-// Section 0 > aqui se inserta toda la info de fetch
-let objSolapas = {};
-
 let arrayDatos = [[],[],[],[],[],[]];
 let total = [];
 
@@ -40,23 +30,17 @@ const fnGetDatos = async (url, empresa) => {
     try {
         message.innerHTML = 'Cargando ...';
 
-        console.log('0. borrando datos anteriores', arrayDatos = [[],[],[],[],[],[]]);
-        console.log('0. borrando datos anteriores', total = []);
-
-        console.log('1. escaneando ...');
+        arrayDatos = [[],[],[],[],[],[]];
+        total = [];
         
         let resultado = await fetch(url);
         let data = await resultado.json();
 
-        /* objGetFetch = await resultado.json(); prueba satisfactoria */
-
-        /* console.log('objeto nuevo', objGetFetch); */
-
-        console.log('2. insertando datos en pantalla', fnInsertarEnSolapas(data, empresa));
-        console.log('3. rellenando arrayDatos para luego sumar', fnRellenandoParaPoderSumar(data, empresa));
-        console.log('4. rellenando objSumas', fnSumas(arrayDatos));
-        console.log('5. rellenando numero de entregas, recogidas, etc', fnResumen(arrayDatos));
-        console.log('6. insertando barritas', fnRellenarBarritas(arrayDatos, data, empresa));
+        fnInsertarEnSolapas(data, empresa);
+        fnRellenandoParaPoderSumar(data, empresa);
+        fnSumas(arrayDatos);
+        fnResumen(arrayDatos);
+        fnRellenarBarritas(arrayDatos, data, empresa);
 
         message.innerHTML = '';
     }
@@ -84,25 +68,23 @@ const fnInsertarEnSolapas = (data, empresa) => {
             
             if (element.empresa == empresa) {
 
-                if (i != 6) {
+                if (i < 5) {
                     arrayInsertHtmlSolapas[i].innerHTML += `<li>${element[claves[f]]}</li>`;
                     
                 } else {
 
+                    if (i == 5) {
+                        arrayInsertHtmlSolapas[i].innerHTML += `<li data-modal="abrir" data-modalSide="modal-bottom">${element[claves[f]]}</li>`;
+                    }
+
                     if (element[claves[i]] > 0) {
-                        /* arrayInsertHtmlSolapas[i].innerHTML += `<li> <i data-modal="abrir" data-modalSide="modal-bottom" class="far fa-question-circle"></i> </li>`;
-                        console.log('OBJ', element[claves[f]]); */
 
-                        element[claves[f]].forEach(item => {
-
+                        console.log('DENTROOOO');
+                        element[claves[i]].forEach(item => {
                             obsModalHTML.innerHTML += `<li> <strong>Exp.: </strong> ${item.exp} - ${item.obs}<br> </li>`;
                         })
 
                     }
-
-                   /*  if (element[claves[i]] == 0) {
-                        arrayInsertHtmlSolapas[i].innerHTML += `<li> - </li>`;
-                    } */
                 }
             }
 
@@ -174,10 +156,6 @@ const fnResumen = (data) => {   // nos muestra el numero total de Entregas, reco
 
         resumen.innerHTML += `<li><div class="resumenValues counter" data-target="${diasTrabajados}">0</div><div class="resumenKeys">Dias trabajados</div></li>`; 
         
-        console.log('OBJETO SUMAS', objSumas);
-        console.log('MIRANDO', keys, values);
-
-
         // hayando la media
         let media = (objSumas.entregas + objSumas.recogidas + objSumas.extras) / diasTrabajados;
         
