@@ -63,6 +63,8 @@ const fnInsertarEnSolapas = (data, empresa) => {
     data.mes.forEach(element => {
         let f = 1;
         let claves = Object.keys(element);
+
+        console.log('dd', data.mes);
         
         for(let i = 0; i < arrayInsertHtmlSolapas.length; i++){
             
@@ -77,12 +79,16 @@ const fnInsertarEnSolapas = (data, empresa) => {
                         arrayInsertHtmlSolapas[i].innerHTML += `<li data-modal="abrir" data-modalSide="modal-bottom">${element[claves[f]]}</li>`;
                     }
 
-                    if (element[claves[i]] > 0) {
+                    if (element[claves[f]] > 0) {
 
-                        console.log('DENTROOOO');
-                        element[claves[i]].forEach(item => {
+                        console.log('DENTROOOO', element.solapa7);
+                        
+                        element.solapa7.forEach(item => {
+
                             obsModalHTML.innerHTML += `<li> <strong>Exp.: </strong> ${item.exp} - ${item.obs}<br> </li>`;
                         })
+                        
+                    
 
                     }
                 }
