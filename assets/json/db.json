@@ -1,0 +1,111 @@
+{
+    "2021": 
+        [
+            {"id": 9, "ano": 2021, "mes": 
+                [
+                    {
+                        "empresa": "rhenus", "solapa1": "Dia", "solapa2": "Entregas","solapa3": "Recogidas","solapa4": "Kilos","solapa5": "Especiales","solapa6": "Extras",
+                        "solapa7": "Obs"
+                    },
+                    {
+                        "empresa": "vectio", "solapa1": "Dia",  "solapa2": "Maletas", "solapa3": "Direcciones", "solapa4": "Mal. No", "solapa5": "Dir. No", "solapa6": "Extras",
+                        "solapa7": "Obs"
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "01",  "solapa2": 14, "solapa3": 0,"solapa4": 0,"solapa5": 0,"solapa6": 0,
+                        "solapa7": [{"exp": "-","obs": ""}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "04", "solapa2": 10, "solapa3": 1,"solapa4": 0,"solapa5": 0,"solapa6": 2,
+                        "solapa7": [{"exp": "7-11-3-514029/1","obs": "(1 caja faltante)"},{"exp": "7-11-1-2002385/17 y /18","obs": "(1 caja faltante por exp)"}]
+                    },
+                    {
+                        "empresa": "vectio", "solapa1": "04", "solapa2": 3, "solapa3": 3, "solapa4": 0, "solapa5": 0, "solapa6": 0,
+                        "solapa7": [{"obs": ""}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "05", "solapa2": 22, "solapa3": 2,"solapa4": 0,"solapa5": 0,"solapa6": 0,
+                        "solapa7": [{"exp": "-","obs": ""}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "06", "solapa2": 20, "solapa3": 1,"solapa4": 0,"solapa5": 0,"solapa6": 0,
+                        "solapa7": [{"exp": "-","obs": ""}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "07", "solapa2": 17, "solapa3": 3,"solapa4": 0,"solapa5": 0,"solapa6": 1,
+                        "solapa7": [{"exp": "2005880","obs": "extra por tercer intento"}]
+                    },
+                    {
+                        "empresa": "vectio", "solapa1": "07", "solapa2": 5, "solapa3": 5, "solapa4": 0, "solapa5": 0, "solapa6": 0,
+                        "solapa7": [{"obs": ""}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "08", "solapa2": 21, "solapa3": 1,"solapa4": 156,"solapa5": 0,"solapa6": 0,
+                        "solapa7": [{"exp": "-","obs": ""}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "11", "solapa2": 18,"solapa3": 0,"solapa4": 0,"solapa5": 0,"solapa6": 0,
+                        "solapa7": [{"exp": "-","obs": ""}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "13", "solapa2": 22, "solapa3": 0,"solapa4": 0,"solapa5": 0,"solapa6": 0,
+                        "solapa7": [{"exp": "-","obs": ""}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "14", "solapa2": 23, "solapa3": 0,"solapa4": 155,"solapa5": 0,"solapa6": 2,
+                        "solapa7": [{"exp": "7-11-3-516122/8","obs": "caja faltante"},{"exp": "1714289/1", "obs": "peso mal, son minimo 50 kilos"}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "15", "solapa2": 27, "solapa3": 0,"solapa4": 0,"solapa5": 0,"solapa6": 1,
+                        "solapa7": [{"exp": "606573/1","obs": "rechazo, se fue a la peluquería y no lo quizo"}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "18", "solapa2": 18, "solapa3": 0,"solapa4": 63,"solapa5": 0,"solapa6": 0,
+                        "solapa7": [{"exp": "-","obs": ""}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "19", "solapa2": 22, "solapa3": 1,"solapa4": 67,"solapa5": 0,"solapa6": 0,
+                        "solapa7": [{"exp": "-","obs": ""}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "20", "solapa2": 31, "solapa3": 1,"solapa4": 126,"solapa5": 0,"solapa6": 0,
+                        "solapa7": [{"exp": "-","obs": ""}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "21", "solapa2": 20, "solapa3": 0,"solapa4": 0,"solapa5": 0,"solapa6": 0,
+                        "solapa7": [{"exp": "-","obs": ""}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "22", "solapa2": 24, "solapa3": 1,"solapa4": 121,"solapa5": 0,"solapa6": 1,
+                        "solapa7": [{"exp": "-","obs": "entrega en Hospital Roca "}]
+                    }
+                ]
+                },
+            {"id": 10, "ano": 2021, "mes": 
+                [
+                    {
+                        "empresa": "rhenus", "solapa1": "Dia", "solapa2": "Entregas","solapa3": "Recogidas","solapa4": "Kilos","solapa5": "Especiales","solapa6": "Extras",
+                        "solapa7": "Obs"
+                    },
+                    {
+                        "empresa": "vectio", "solapa1": "Dia",  "solapa2": "Maletas", "solapa3": "Direcciones", "solapa4": "Mal. No", "solapa5": "Dir. No", "solapa6": "Extras",
+                        "solapa7": "Obs"
+                    }
+                ]
+            },
+            {"id": 11, "ano": 2021, "mes": 
+                [
+                    {
+                        "empresa": "rhenus", "solapa1": "Dia", "solapa2": "Entregas","solapa3": "Recogidas","solapa4": "Kilos","solapa5": "Especiales","solapa6": "Extras",
+                        "solapa7": "Obs"
+                    },
+                    {
+                        "empresa": "vectio", "solapa1": "Dia",  "solapa2": "Maletas", "solapa3": "Direcciones", "solapa4": "Mal. No", "solapa5": "Dir. No", "solapa6": "Extras",
+                        "solapa7": "Obs"
+                    }
+                ]
+            }
+        ],
+    "2022": [] 
+}
+  

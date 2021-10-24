@@ -1,0 +1,59 @@
+[
+    {
+        "año": 2021, "meses":
+            [
+                {"id": 9, "empresa": "rhenus", "ruta": 
+                    [
+                        {
+                            "dia": "01", "entregas": 14, "recogidas": 0, "kilos": 0, "especiales": 0, "extras": 0, "observaciones": [{"exp": "-", "obs": "-"}]
+                        },
+                        {
+                            "dia": "04", "entregas": 10, "recogidas": 1, "kilos": 0, "especiales": 0, "extras": 2, "observaciones": [{"exp": "7-11-3-514029/1","obs": "(1 caja faltante)"},{"exp": "7-11-1-2002385/17 y /18","obs": "(1 caja faltante por exp)"}]
+                        }
+                    ]
+                },
+                {"id": 9, "empresa": "vectio", "ruta": 
+                    [
+                        {
+                            "dia": "07", "maletas entregadas": 5, "direcciones": 6, "recorrido": "aero - telde x2 - LP x5", "observaciones": [{"obs": "-"}]
+                        }
+                    ]
+                },
+                {"id": 10, "empresa": "rhenus", "mes": 
+                    [
+                        {
+                            "dia": "01", "entregas": 14, "recogidas": 0, "kilos": 0, "especiales": 0, "extras": 0, "observaciones": [{"exp": "-", "obs": "-"}]
+                        }
+                    ]
+                },
+                {"id": 10, "empresa": "vectio", "mes": 
+                    [
+                        {
+                            "dia": "07", "maletas entregadas": 5, "direcciones": 6, "recorrido": "aero - telde - LP", "observaciones": [{"obs": "-"}]
+                        }
+                    ]
+                },
+                {"id": 11, "empresa": "rhenus", "mes": 
+                    [
+                        {
+                            "dia": "01", "entregas": 14, "recogidas": 0, "kilos": 0, "especiales": 0, "extras": 0, "observaciones": [{"exp": "-", "obs": "-"}]
+                        }
+                    ]
+                },
+                {"id": 11, "empresa": "vectio", "mes": 
+                    [
+                        {
+                            "dia": "07", "maletas entregadas": 5, "direcciones": 6, "recorrido": "aero - telde - LP", "observaciones": [{"obs": "-"}]
+                        }
+                    ]
+                }
+            ]
+    },
+    {
+        "año": 2022, "meses": 
+            [
+
+            ] 
+    }
+]
+  
