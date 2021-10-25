@@ -88,8 +88,6 @@ const fnInsertarEnSolapas = (data, empresa) => {
                             obsModalHTML.innerHTML += `<li><strong>Dia: ${element.solapa1} <br> </strong> <strong> Exp.: </strong> ${item.exp} - ${item.obs}<br> </li>`;
                         })
                         
-                    
-
                     }
                 }
             }
