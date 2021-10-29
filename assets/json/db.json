@@ -80,8 +80,24 @@
                         "solapa7": [{"exp": "-","obs": "entrega en Hospital Roca "}]
                     },
                     {
-                        "empresa": "rhenus", "solapa1": "25", "solapa2": 15, "solapa3": 0,"solapa4": 170,"solapa5": 0,"solapa6": 0,
+                        "empresa": "rhenus", "solapa1": "25", "solapa2": 15, "solapa3": 0,"solapa4": 170,"solapa5": 0,"solapa6": 1,
+                        "solapa7": [{"exp": "00000","obs": "entrega en asepeyo de la c/ moya"}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "26", "solapa2": 25, "solapa3": 0,"solapa4": 0,"solapa5": 0,"solapa6": 1,
+                        "solapa7": [{"exp": "7-11-4-606068/1","obs": "se entrega una caja faltante"}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "27", "solapa2": 24, "solapa3": 1,"solapa4": 184,"solapa5": 0,"solapa6": 1,
+                        "solapa7": [{"exp": "7-11-2-1717908/1","obs": "se entregan 2 cajas faltantes"}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "28", "solapa2": 31, "solapa3": 1,"solapa4": 121,"solapa5": 1,"solapa6": 0,
                         "solapa7": [{"exp": "-","obs": ""}]
+                    },
+                    {
+                        "empresa": "rhenus", "solapa1": "29", "solapa2": 25, "solapa3": 3,"solapa4": 0,"solapa5": 0,"solapa6": 1,
+                        "solapa7": [{"exp": "7-11-12-18670/1","obs": "se entrega caja recogida en otra empresa"}]
                     }
                 ]
                 },
