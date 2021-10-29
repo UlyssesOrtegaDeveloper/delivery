@@ -1,10 +1,17 @@
 #idSection_2 {
 
     ul {
-        margin: 0 auto;
 
         li {
+            background-color: rgb(218, 218, 218);
             padding: 1em;
+            margin: 1em;
+            text-align: center;
+
+            &:last-child {
+                background-color: transparent;
+                font-size: 24px;
+            }
         }
     }
 }

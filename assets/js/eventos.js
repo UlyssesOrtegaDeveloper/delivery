@@ -35,7 +35,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
     Api.fnGetDatos(`${URL_API}/${anio}/${mes}`, `rhenus`);
 })
-
-
-// ------------------------
-
