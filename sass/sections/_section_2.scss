@@ -1,0 +1,107 @@
+#idSection_2 {
+    padding-bottom: calc(100% + 50px);
+
+    h1 {
+        text-align: end;
+    }
+
+    table.datos-factura {
+        width: 100%;
+
+        td {
+            text-align: end;
+            &:nth-child(2) {
+                text-align: end;
+            }
+        }
+    }
+
+    table.calculo-factura {
+        width: 100% !important;
+
+        tr {
+            &:nth-child(odd) {
+                background-color: $color_fondo_even;
+            }
+
+            &:nth-child(even){
+                background-color: $color_fondo_even;
+            }
+        }
+
+        tr.noColor {
+            background-color: transparent !important;
+        }
+
+        td {
+            border: 3px solid white;
+            padding: 1em;
+
+            &:nth-child(2) {
+                text-align: center;
+            }
+
+            &:nth-child(3) {
+                text-align: end;
+            }
+        }    
+    }
+
+    ul.impuestos-resumen {
+        padding: 1em;
+
+        li {
+            padding: 0.5em;
+            text-align: end;
+            margin-right: 0.5em;
+            font-size: 14px;
+        }
+
+        li:nth-child(4) {
+            margin-top: 1em;
+            font-weight: bold;
+        }
+    }
+    
+
+    table#idContenedorFechasFactura {
+
+        tr {
+
+            td {
+                width: 20%;
+
+                input {
+                    width: 118px !important;
+                }
+
+                &:nth-child(2) {
+                    width: 30%;
+                    font-size: 12px;
+                }
+
+                &:nth-child(3) {
+                    width: 30%;
+                }
+            }
+        }
+    }
+
+    .contenedorButton {
+        text-align: center;
+
+        button {
+            background-color: $color_fondo_even;
+            border: 2px solid $color_fondo_secundario;
+            text-align: center;
+            padding: 1em;
+            width: 70%;
+            margin-top: 4em;
+
+            &:hover {
+                background-color: $color_fondo_odd;
+                cursor: pointer;
+            }
+        }
+    }
+}

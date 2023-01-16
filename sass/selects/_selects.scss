@@ -1,0 +1,26 @@
+.contenedor-selects {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 1em;
+    z-index: 2;
+    position: relative;
+    
+    select {
+        background-color: $color_fondo_secundario;
+        border-radius: .3em; border: none; color: white;
+        padding: .5em;
+
+        -moz-appearance:none; /* Firefox */
+        -webkit-appearance:none; /* Safari and Chrome */
+        appearance:none;
+
+        &:nth-child(1) {
+            max-width: 120px;
+        }
+    }
+    
+    .container-selects {
+        width: 100%;
+        text-align: end;
+    }
+}

@@ -1,0 +1,151 @@
+[
+    {
+        "año": 2023,
+        "mes": "agosto",
+        "empresa": "Rhenus",
+        "numero_factura": "03/23",
+        "fecha_factura": "01/07/2023",
+        "fecha_vencimiento": "16/07/2023",
+        "precios": {"entregas": 4.15, "recogidas": 4.15, "kilos": 0.047, "especiales": 5, "supermercados": 4.15, "extras": 4.15},
+        "reparto": [
+            {"dia": "01", "entregas": 25, "recogidas": 1, "kilos": 105, "especiales": 0, "supermercados": 3, "extras": 0},
+            {"dia": "02", "entregas": 31, "recogidas": 0, "kilos": 120, "especiales": 0, "supermercados": 1, "extras": [{"exp": "7-11-2-43224", "obs": "dedo"}]},
+            {"dia": "03", "entregas": 11, "recogidas": 5, "kilos": 50, "especiales": 0, "supermercados": 0, "extras": 0},
+            {"dia": "05", "entregas": 29, "recogidas": 2, "kilos": 115, "especiales": 0, "supermercados": 5, "extras": [{"exp": "7-11-1-04567", "obs": "dedo"},{"exp": "7-11-2-742425", "obs": "dedo"},{"exp": "7-11-q-554425", "obs": "dedo"}]},
+            {"dia": "11", "entregas": 20, "recogidas": 3, "kilos": 0, "especiales": 0, "supermercados": 3, "extras": 0},
+            {"dia": "22", "entregas": 33, "recogidas": 0, "kilos": 110, "especiales": 0, "supermercados": 1, "extras": 0},
+            {"dia": "23", "entregas": 19, "recogidas": 1, "kilos": 100, "especiales": 0, "supermercados": 0, "extras": 0},
+            {"dia": "25", "entregas": 39, "recogidas": 0, "kilos": 210, "especiales": 0, "supermercados": 2, "extras": [{"exp": "7-11-3-24535", "obs": "dedo"},{"exp": "7-11-2-742425", "obs": "dedo"}]}
+        ]
+    },
+    {
+        "año": 2023,
+        "mes": "febrero",
+        "empresa": "Rhenus",
+        "numero_factura": "02/23",
+        "fecha_factura": "01/02/2023",
+        "fecha_vencimiento": "16/02/2023",
+        "precios": {"entregas": 4.15, "recogidas": 4.15, "kilos": 0.047, "especiales": 5, "supermercados": 4.15, "extras": 4.15},
+        "reparto": [
+            {"dia": "01", "entregas": 25, "recogidas": 1, "kilos": 105, "especiales": 0, "supermercados": 3, "extras": 0},
+            {"dia": "02", "entregas": 31, "recogidas": 0, "kilos": 120, "especiales": 0, "supermercados": 1, "extras": [{"exp": "24535", "obs": "dedo"}]},
+            {"dia": "03", "entregas": 11, "recogidas": 5, "kilos": 50, "especiales": 0, "supermercados": 0, "extras": 0},
+            {"dia": "05", "entregas": 29, "recogidas": 2, "kilos": 115, "especiales": 0, "supermercados": 5, "extras": [{"exp": "24535", "obs": "dedo"},{"exp": "24535", "obs": "dedo"}]},
+            {"dia": "11", "entregas": 20, "recogidas": 3, "kilos": 0, "especiales": 0, "supermercados": 3, "extras": 0},
+            {"dia": "22", "entregas": 33, "recogidas": 0, "kilos": 110, "especiales": 0, "supermercados": 1, "extras": [{"exp": "24535", "obs": "dedo"}]},
+            {"dia": "23", "entregas": 19, "recogidas": 1, "kilos": 100, "especiales": 0, "supermercados": 0, "extras": 0},
+            {"dia": "25", "entregas": 39, "recogidas": 0, "kilos": 210, "especiales": 0, "supermercados": 2, "extras": [{"exp": "24535", "obs": "dedo"}]}
+        ]
+    },
+    {
+        "año": 2023,
+        "mes": "enero",
+        "empresa": "Hill Food",
+        "numero_factura": "02/23",
+        "fecha_factura": "16/01/2023",
+        "fecha_vencimiento": "31/01/2023",
+        "precios": {"supermercados": 10, "hoteles": 10, "herbolarios": 5.50, "particulares": 5.50, "otros": 5.50},
+        "reparto": [
+            {"dia": "10", "supermercados": 4, "hoteles": 0, "herbolarios": 0, "particulares": 0, "otros": 0},
+            {"dia": "11", "supermercados": 4, "hoteles": 0, "herbolarios": 0, "particulares": 0, "otros": 0},
+            {"dia": "12", "supermercados": 1, "hoteles": 0, "herbolarios": 0, "particulares": 0, "otros": 0}
+        ]
+    },
+    {
+        "año": 2022,
+        "mes": "diciembre",
+        "empresa": "Rhenus",
+        "numero_factura": "17/22",
+        "precios": {"entregas": 4.15, "recogidas": 4.15, "kilos": 0.047, "especiales": 5, "supermercados": 4.15, "extras": 4.15},
+        "reparto": [
+            {"dia": "01", "entregas": 10, "recogidas": 5, "kilos": 0, "especiales": 0, "supermercados": 0, "extras": 0},
+            {"dia": "02", "entregas": 20, "recogidas": 3, "kilos": 0, "especiales": 0, "supermercados": 0, "extras": 0},
+            {"dia": "03", "entregas": 30, "recogidas": 0, "kilos": 0, "especiales": 0, "supermercados": 0, "extras": [{"exp": "3432", "obs": "dfsdf"}]},
+            {"dia": "11", "entregas": 10, "recogidas": 5, "kilos": 0, "especiales": 0, "supermercados": 0, "extras": 0},
+            {"dia": "12", "entregas": 20, "recogidas": 3, "kilos": 0, "especiales": 0, "supermercados": 0, "extras": 0},
+            {"dia": "13", "entregas": 30, "recogidas": 0, "kilos": 0, "especiales": 0, "supermercados": 0, "extras": [{"exp": "3432", "obs": "dfsdf"}]},
+            {"dia": "15", "entregas": 50, "recogidas": 1, "kilos": 0, "especiales": 0, "supermercados": 0, "extras": 0}
+        ]
+    },
+    {
+        "año": 2022,
+        "mes": "diciembre",
+        "empresa": "Hill Food",
+        "numero_factura": "16/22",
+        "precios": {"supermercados": 10, "hoteles": 10, "herbolarios": 5.50, "particulares": 5.50, "otros": 5.50},
+        "reparto": [
+            {"dia": "03", "supermercados": 7, "hoteles": 8, "herbolarios": 2, "particulares": 0, "otros": 1},
+            {"dia": "10", "supermercados": 5, "hoteles": 3, "herbolarios": 5, "particulares": 1, "otros": 3},
+            {"dia": "22", "supermercados": 10, "hoteles": 7, "herbolarios": 10, "particulares": 2, "otros": 0}
+        ]
+    },
+    {
+        "año": 2022,
+        "mes": "noviembre",
+        "empresa": "Rhenus",
+        "numero_factura": "17/22",
+        "precios": {"entregas": 4.15, "recogidas": 4.15, "kilos": 0.047, "especiales": 5, "supermercados": 4.15, "extras": 4.15},
+        "reparto": [
+            {"dia": "01", "entregas": 10, "recogidas": 5, "kilos": 0, "especiales": 0, "supermercados": 0, "extras": 0},
+            {"dia": "02", "entregas": 20, "recogidas": 3, "kilos": 0, "especiales": 0, "supermercados": 0, "extras": 0},
+            {"dia": "03", "entregas": 30, "recogidas": 0, "kilos": 0, "especiales": 0, "supermercados": 0, "extras": [{"exp": "3432", "obs": "dfsdf"}]},
+            {"dia": "11", "entregas": 10, "recogidas": 5, "kilos": 0, "especiales": 0, "supermercados": 0, "extras": 0},
+            {"dia": "12", "entregas": 20, "recogidas": 3, "kilos": 0, "especiales": 0, "supermercados": 0, "extras": 0},
+            {"dia": "13", "entregas": 30, "recogidas": 0, "kilos": 0, "especiales": 0, "supermercados": 0, "extras": [{"exp": "3432", "obs": "dfsdf"}]},
+            {"dia": "15", "entregas": 50, "recogidas": 1, "kilos": 0, "especiales": 0, "supermercados": 0, "extras": 0}
+        ]
+    },
+    {
+        "año": 2022,
+        "mes": "enero",
+        "empresa": "Rhenus",
+        "numero_factura": "01/22",
+        "precios": {"entregas": 4.15, "recogidas": 4.15, "kilos": 0.047, "especiales": 5, "supermercados": 4.15, "extras": 4.15},
+        "reparto": [
+            {"dia": "01", "entregas": 25, "recogidas": 1, "kilos": 105, "especiales": 0, "supermercados": 3, "extras": 0},
+            {"dia": "02", "entregas": 31, "recogidas": 0, "kilos": 120, "especiales": 0, "supermercados": 1, "extras": [{"exp": "24535", "obs": "dedo"}]},
+            {"dia": "03", "entregas": 11, "recogidas": 5, "kilos": 50, "especiales": 0, "supermercados": 0, "extras": 0},
+            {"dia": "05", "entregas": 29, "recogidas": 2, "kilos": 115, "especiales": 0, "supermercados": 5, "extras": [{"exp": "24535", "obs": "dedo"},{"exp": "24535", "obs": "dedo"}]},
+            {"dia": "11", "entregas": 20, "recogidas": 3, "kilos": 0, "especiales": 0, "supermercados": 3, "extras": 0},
+            {"dia": "22", "entregas": 33, "recogidas": 0, "kilos": 110, "especiales": 0, "supermercados": 1, "extras": [{"exp": "24535", "obs": "dedo"}]},
+            {"dia": "23", "entregas": 19, "recogidas": 1, "kilos": 100, "especiales": 0, "supermercados": 0, "extras": 0},
+            {"dia": "25", "entregas": 39, "recogidas": 0, "kilos": 210, "especiales": 0, "supermercados": 2, "extras": [{"exp": "24535", "obs": "dedo"}]}
+        ]
+    },
+    {
+        "año": 2021,
+        "mes": "junio",
+        "empresa": "Vectio",
+        "numero_factura": "02/21",
+        "precios": {"maletas entregadas": 10, "ausentes": 10},
+        "reparto": [
+            {"dia": "01", "maletas entregadas": 17, "ausentes": 1},
+            {"dia": "02", "maletas entregadas": 40, "ausentes": 0},
+            {"dia": "03", "maletas entregadas": 12, "ausentes": 5},
+            {"dia": "05", "maletas entregadas": 20, "ausentes": 2},
+            {"dia": "11", "maletas entregadas": 6, "ausentes": 3},
+            {"dia": "22", "maletas entregadas": 19, "ausentes": 0},
+            {"dia": "23", "maletas entregadas": 21, "ausentes": 1},
+            {"dia": "25", "maletas entregadas": 12, "ausentes": 0}
+        ]
+    },
+    {
+        "año": 2021,
+        "mes": "mayo",
+        "empresa": "Hill Food",
+        "numero_factura": "01/21",
+        "precios": {"supermercados": 10, "hoteles": 10, "herbolarios": 5.50, "particulares": 5.50, "otros": 5.50},
+        "reparto": [
+            {"dia": "03", "supermercados": 3, "hoteles": 18, "herbolarios": 12, "particulares": 3, "otros": 5},
+            {"dia": "04", "supermercados": 2, "hoteles": 30, "herbolarios": 5, "particulares": 12, "otros": 1},
+            {"dia": "05", "supermercados": 9, "hoteles": 17, "herbolarios": 11, "particulares": 1, "otros": 2},
+            {"dia": "06", "supermercados": 3, "hoteles": 8, "herbolarios": 22, "particulares": 1, "otros": 8},
+            {"dia": "10", "supermercados": 7, "hoteles": 5, "herbolarios": 7, "particulares": 1, "otros": 3},
+            {"dia": "12", "supermercados": 10, "hoteles": 27, "herbolarios": 11, "particulares": 2, "otros": 0},
+            {"dia": "13", "supermercados": 9, "hoteles": 18, "herbolarios": 21, "particulares": 0, "otros": 1},
+            {"dia": "14", "supermercados": 5, "hoteles": 30, "herbolarios": 9, "particulares": 1, "otros": 3},
+            {"dia": "20", "supermercados": 10, "hoteles": 17, "herbolarios": 3, "particulares": 2, "otros": 0}
+        ]
+    }
+    
+]

@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    section {
+        display: none;
+    }
+    
+    .section-activo {
+        display: block;
+    }
+}
+
+
+/* Colores */
+
+.bg-red {
+    background-color: #D35D6E; color: white;
+    border: 3px solid #a44150 !important;
+
+    &:hover {
+        background-color: #c23b4f;
+    }       
+}
+
+.bg-green {
+    background-color: #5AA469; color: white;
+    border: 3px solid #328c44 !important;
+
+    &:hover {
+        background-color: #38a24d;
+    }
+}
+
+/* Containers */
+
+.container-btn {
+    position: absolute; bottom: 0; left: 0;
+    width: 100%;
+    text-align: center;
+
+    button {
+        width: 90%;
+        padding: 1em;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 1em;
+    }
+}
+
+.modal { // LOGO
+
+    img {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/// Tables
+/// Configuracion de las Tablas <ul><li>
+.table-conf {
+    background-color: lightsalmon;
+    ul {
+
+        li {
+            text-align: center;
+            /// Ellipsis para poner 3 puntitos en los desbordamientos de texto
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+}

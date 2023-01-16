@@ -1,0 +1,29 @@
+[
+    {
+        "empresa": "Rhenus",
+        "datos_fiscales": {
+            "razon social": "Rhenus Logistics, S.A.U",
+            "cif": "CIF: A-08211989",
+            "domicilio": "C/Area VI Parcela C32 Puerto de Las Palmas",
+            "cp": "C.P: 35008- Las Palmas de Gran Canaria"
+        }
+    },
+    {
+        "empresa": "Hill Food",
+        "datos_fiscales": {
+            "razon social": "HILL FOOD S.L.U",
+            "cif": "CIF: B-38675138",
+            "domicilio": "Avda Cristóbal Colon 27, 1º Derecha, Puertito de güimar",
+            "cp": "C.P: 38509 - Arafo - S/C de Tenerife"
+        }
+    },
+    {
+        "empresa": "Vectio",
+        "datos_fiscales": {
+            "razon social": "Hill Food S.L.U",
+            "cif": "B-xxxxxxxx",
+            "domicilio": "calle",
+            "cp": ""
+        }
+    }
+]

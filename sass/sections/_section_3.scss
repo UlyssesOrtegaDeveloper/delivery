@@ -1,0 +1,213 @@
+/* //////////////////////////////*/
+/* ////      FUENTES       //////*/
+/* //////////////////////////////*/
+table.datos-facturaPDF,
+#idContainerTablaRuta,
+table.calculo-facturaPDF,
+table.observaciones-facturaPDF,
+table.impuestos-facturaPDF,
+div.observaciones-facturaPDF,
+.texto-facturaPDF,
+h4,
+h5 {
+    font-size: 12px;
+}
+
+.titulo-facturaPDF  {
+    text-align: end;
+}
+
+table {
+    width: 100%;
+}
+
+.f-derecha-datos, .f-izquierda-datos {
+    width: 100%;
+    text-align: end;
+    margin-top: 2em;
+}
+
+.f-derecha-datos {
+    padding-left: 2em;
+}
+
+.f-izquierda-datos {   
+    font-weight: 600;
+}
+
+.f-derecha-cliente {
+    text-align: start;
+}
+
+
+/* //////////////////////////////*/
+/* ////   TABLA DESGLOSE   //////*/
+/* //////////////////////////////*/
+#idTabla0_factura li:nth-child(odd),
+#idTabla1_factura li:nth-child(odd),
+#idTabla2_factura li:nth-child(odd),
+#idTabla3_factura li:nth-child(odd),
+#idTabla4_factura li:nth-child(odd),
+#idTabla5_factura li:nth-child(odd),
+#idTabla6_factura li:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+    padding: 0.1em;
+    text-align: center;
+}
+
+#idTabla0_factura li:nth-child(1),
+#idTabla1_factura li:nth-child(1),
+#idTabla2_factura li:nth-child(1),
+#idTabla3_factura li:nth-child(1),
+#idTabla4_factura li:nth-child(1),
+#idTabla5_factura li:nth-child(1),
+#idTabla6_factura li:nth-child(1){
+    background-color: rgb(161, 160, 160);
+    padding: 0.1em;
+    text-align: center;
+    font-weight: 700;
+}
+
+#idTabla0_factura li:nth-child(even),
+#idTabla1_factura li:nth-child(even),
+#idTabla2_factura li:nth-child(even),
+#idTabla3_factura li:nth-child(even),
+#idTabla4_factura li:nth-child(even),
+#idTabla5_factura li:nth-child(even),
+#idTabla6_factura li:nth-child(even){
+    background-color: rgb(227, 227, 227);
+    padding: 0.1em;
+    text-align: center;
+}
+
+
+/* /////////////////////////////////*/
+/* ///       TABLA CALCULO       ///*/
+/* /////////////////////////////////*/
+table.calculo-facturaPDF {
+    padding: 0.5em;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+table.calculo-facturaPDF tr td:nth-child(1) {
+    text-align: start!important;
+}
+
+table.calculo-facturaPDF tr td {
+    text-align: end;
+    padding: 0.1em;
+}
+
+
+/* /////////////////////////////////*/
+/* ///      TABLA IMPUESTOS      ///*/
+/* /////////////////////////////////*/
+table.impuestos-facturaPDF {
+    padding: 1em;
+    text-align: end;
+    border: 0;
+}
+
+table.impuestos-facturaPDF #idimpuestosC_6_factura {
+    width: 20%;
+}
+
+table.impuestos-facturaPDF .negrita td:nth-child(4) {
+    padding-top: 0.2em;
+}
+
+.negrita  {
+    font-weight: 800;
+}
+
+
+/* /////////////////////////////////*/
+/* ///    TABLA OBSERVACIONES    ///*/
+/* /////////////////////////////////*/
+h4 {
+    padding-top: 1em; padding-bottom: 0.5em;
+}
+
+div.observaciones-facturaPDF ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    padding-bottom: 1em;
+}
+
+div.observaciones-facturaPDF li {
+    padding: 1px; margin: 1px;
+}
+
+
+/* /////////////////////////////////*/
+/* ///      CUENTA BANCARIA      ///*/
+/* /////////////////////////////////*/
+
+h5 {
+    text-align: start;
+    padding-top: 1.5em;
+}
+
+
+/* /////////////////////////////////*/
+/* ///           GRID            ///*/
+/* /////////////////////////////////*/
+.contenedor-datos-factura{
+    padding-top: 0.3em;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 100%;
+}
+
+/* /////////////////////////////////*/
+/* ///      MODAL - SCROLL       ///*/
+/* /////////////////////////////////*/
+.modal-bottom {
+    overflow: scroll!important;
+}
+
+#idFactura-total-impuestos {
+
+    td {
+        width: 25%;
+        padding-top: 0.2em;
+    }
+
+    tr:nth-child(3) {
+        
+        td {
+            width: 30%;
+        }
+    }    
+
+    tr:nth-child(4) {
+
+        td {
+            padding-top: 1em;
+            font-weight: 900;
+        }
+    }
+}
+
+
+#idContainerTablaRuta {
+
+    ul {
+        text-align: center;
+
+        li {
+            padding: 0.1em;
+
+            &:nth-child(odd) {
+                background-color: rgb(227, 227, 227);
+            }
+        }
+
+        li:nth-child(1) {
+            background-color: rgb(160, 160, 160);
+            font-weight: 700;
+            
+        }
+    }
+}
